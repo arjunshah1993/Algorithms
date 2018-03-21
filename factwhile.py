@@ -6,6 +6,6 @@ def factwhile(n):
 		temp2 = n * (n-1)
 		temp1 = temp1 * temp2
 		n -= 2
-	return(print(temp1)
+	return temp1
 
-factwhile(n)
+print(factwhile(n))
