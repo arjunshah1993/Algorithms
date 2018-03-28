@@ -22,7 +22,7 @@ def create_circular_linked_list():
 
 def check_loop(head):
     slow = head.next
-    fast = slow.next.next
+    fast = slow.next
     while head:
         if slow == fast:
             print("Loop exists")
